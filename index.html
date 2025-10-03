@@ -7,7 +7,7 @@
 
     <meta name="author" content="Gyubin Lee">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon/brain.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     
   </head>
@@ -23,11 +23,7 @@
                   Gyubin Lee
                 </p>
                 <p>
-		Hi! I'm M.S. student in the School of Computing at KAIST, working with Prof. <a href="https://mlml.kaist.ac.kr/sungjinahn">Sungjin Ahn</a>. My research interests include deep learning, generative AI, and World Modeling.
-    <!-- I'm a research scientist at <a href="https://deepmind.google/">Google DeepMind</a> in San Francisco, where I lead a small team that mostly works on <a href="https://www.matthewtancik.com/nerf">NeRF</a>.
-		At Google I've worked on <a href="https://www.google.com/glass/start/">Glass</a>,  <a href="https://ai.googleblog.com/2014/04/lens-blur-in-new-google-camera-app.html">Lens Blur</a>, <a href="https://ai.googleblog.com/2014/10/hdr-low-light-and-high-dynamic-range.html">HDR+</a>, <a href="https://blog.google/products/google-ar-vr/introducing-next-generation-jump/">VR</a>, <a href="https://ai.googleblog.com/2017/10/portrait-mode-on-pixel-2-and-pixel-2-xl.html">Portrait Mode</a>, <a href="https://ai.googleblog.com/2020/12/portrait-light-enhancing-portrait.html">Portrait Light</a>, <a href="https://blog.google/products/maps/three-maps-updates-io-2022/">Maps</a>, and <a href="https://research.google/blog/bringing-3d-shoppable-products-online-with-generative-ai/">Shopping</a>.
-		I did my PhD at <a href="http://www.eecs.berkeley.edu/">UC Berkeley</a>, where I was advised by <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a>.
-		I've received the <a href="https://www.thecvf.com/?page_id=413#YRA">PAMI Young Researcher Award</a>. -->
+		            Hi! I'm M.S. student in the School of Computing at KAIST, working with Prof. <a href="https://mlml.kaist.ac.kr/sungjinahn">Sungjin Ahn</a>. My research interests include deep learning, generative AI, and World Modeling.
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:dlrbqls0521@kaist.ac.kr">Email</a> &nbsp;/&nbsp;
@@ -39,7 +35,7 @@
                   <!-- <a href="https://github.com/jonbarron/">Github</a> -->
                 </p>
               </td>
-              <td style="padding:2.5%;width:37%;max-width:37%">
+              <td style="padding:2.5%;width:30%;max-width:37%">
                 <a href="images/GyubinLee.JPG"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/GyubinLee.jpg" class="hoverZoomLink"></a>
               </td>
             </tr>
@@ -58,24 +54,17 @@
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     
     <tr onmouseout="pnf_stop()" onmouseover="pnf_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-      <div class="one">
-      <div class="two" id='pnf_image'>
-        <img src='images/pnf_before.jpg' width="160"></div>
-      <img src='images/pnf_after.jpg' width="160">
-      </div>
-      <script type="text/javascript">
-      function pnf_start() {
-        document.getElementById('pnf_image').style.opacity = "1";
-      }
-
-    function pnf_stop() {
-      document.getElementById('pnf_image').style.opacity = "0";
-    }
-    pnf_stop()
-    </script>
-    </td>
-    <td style="padding:8px;width:80%;vertical-align:middle">
+      <td style="padding:16px;width:25%;vertical-align:middle; position:relative;">
+        <div style="position: relative; overflow: visible;">
+          <img src='images/ABCD.png' 
+              style="width:100%; max-height:100px; object-fit:cover; border-radius:8px; 
+                      transition: all 0.4s ease; position: relative; z-index: 1; transform-origin: left center;" 
+              onmouseover="this.style.transform='scale(3.5)'; this.style.zIndex='1000'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.3)';" 
+              onmouseout="this.style.transform='scale(1)'; this.style.zIndex='1'; this.style.boxShadow='none';">
+        </div>
+      </td>
+      <td style="padding:8px;width:75%;vertical-align:middle">
+        
     <a href="https://arxiv.org/abs/2505.14036">
     <span class="papertitle">Adaptive Inference-Time Scaling via Cyclic Diffusion Search</span>
     </a> <br>
@@ -93,7 +82,6 @@
     </p>
     </td>
     </tr> 
-
         </tbody></table>
 
         <table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
@@ -134,6 +122,11 @@
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
               <td style="padding:0px">
+                <br>
+                <p style="text-align:right;font-size:small;">
+                  This page was built based on <a href="https://jonbarron.info/">This Template</a>
+                </p>
+              </td>
           </tbody></table>
         </td>
       </tr>
