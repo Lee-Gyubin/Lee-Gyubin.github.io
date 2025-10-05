@@ -9,7 +9,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/brain.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    
+    <!-- <style>
+      .section-divider {
+        border-bottom: 1px solid #e0e0e0;
+        margin-bottom: 20px;
+      }
+    </style> -->
   </head>
 
   <body>
@@ -23,7 +28,7 @@
                   Gyubin Lee
                 </p>
                 <p>
-		            Hi! I'm M.S. student in the School of Computing at KAIST, working with Prof. <a href="https://mlml.kaist.ac.kr/sungjinahn">Sungjin Ahn</a>. My research interests include deep learning, generative AI, and World Modeling.
+		            Hi! I'm M.S. student in the School of Computing at KAIST, working with Prof. <a href="https://mlml.kaist.ac.kr/sungjinahn">Sungjin Ahn</a>. My research interests include Generative models, unsupervised Reinforcement Learning, and World Model.
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:dlrbqls0521@kaist.ac.kr">Email</a> &nbsp;/&nbsp;
@@ -35,12 +40,12 @@
                   <!-- <a href="https://github.com/jonbarron/">Github</a> -->
                 </p>
               </td>
-              <td style="padding:2.5%;width:30%;max-width:37%">
+              <td style="padding:2.5%;width:25%;max-width:37%">
                 <a href="images/GyubinLee.JPG"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/GyubinLee.jpg" class="hoverZoomLink"></a>
               </td>
             </tr>
           </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;border-top: 1px solid #e0e0e0;margin-top: 20px;"><tbody>
               <tr>
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research Interests</h2>
@@ -84,6 +89,43 @@
     </tr> 
         </tbody></table>
 
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <h2>Projects</h2>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px 5px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+    <tr onmouseout="pnf_stop()" onmouseover="pnf_start()">
+      <td style="padding:16px;width:25%;vertical-align:middle; position:relative;">
+        <div style="position: relative; overflow: visible;">
+          <img src='images/EBM_all.png' 
+              style="width:100%; max-height:100px; object-fit:cover; border-radius:8px; 
+                      transition: all 0.4s ease; position: relative; z-index: 1; transform-origin: left center;" 
+              onmouseover="this.style.transform='scale(2.5)'; this.style.zIndex='1000'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.3)';" 
+              onmouseout="this.style.transform='scale(1)'; this.style.zIndex='1'; this.style.boxShadow='none';">
+        </div>
+      </td>
+      <td style="padding:8px;width:75%;vertical-align:middle">
+        
+    <a href="data/Temporal_Compotional_EBMs.pdf">
+    <span class="papertitle">Decomposing Temporal latent variable using Compositional Energy functions</span>
+    </a> <br>
+    <strong>Gyubin Lee</strong>, YoonSeok Oh, Sukyung Baek, Paul Lee
+    <br>
+    <em>Introduction to Computer Vision (Spring 2024)</em>
+    <br>
+    <p>
+    We tried to decompose the temporal latent variable into primitive components using compositional energy functions.
+    </p>
+    </td>
+    </tr> 
+        </tbody></table>
+
+
+        <!-- <table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;border-top: 1px solid #e0e0e0;margin-top: 20px;"><tbody> -->
         <table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
             <tr>
               <td>
@@ -97,19 +139,21 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-          <!-- <table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
+          <!-- <table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;border-top: 1px solid #e0e0e0;margin-top: 20px;"><tbody> -->
+          <table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
             <tr>
               <td>
                 <h2>Experience</h2>
-                <h3 style="margin-left: 20px;">Research Intern <span style="font-size: 0.8em; font-weight: normal;">(Jan 2025 - Sep 2025)</span> @ MLML (KAIST)</h3>
-                <p style="margin-left: 40px;">Research on inference-time scaling methods for diffusion models</p>
-                <h3 style="margin-left: 20px;">Research Intern <span style="font-size: 0.8em; font-weight: normal;">(Apr 2024 - Sep 2024)</span> @ TAIL (Korea University)</h3>
-                <p style="margin-left: 40px;">Research on Reinforcement Learning-based fine-tuning methods</p>
+                <h3 style="margin-left: 20px;">Research Intern <span style="font-size: 0.8em; font-weight: normal;">(Jan 2025 - Sep 2025)</span> @ KAIST</h3>
+                <p style="margin-left: 40px;">on inference-time scaling methods for diffusion models</p>
+                <h3 style="margin-left: 20px;">Research Intern <span style="font-size: 0.8em; font-weight: normal;">(Apr 2024 - Sep 2024)</span> @ Korea University</h3>
+                <p style="margin-left: 40px;">on Reinforcement Learning-based fine-tuning methods</p>
               </td>
             </tr>
           </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody> -->
+          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <!-- <table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;border-top: 1px solid #e0e0e0;margin-top: 20px;"><tbody> -->
           <table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
             <tr>
               <td>
@@ -123,7 +167,7 @@
             <tr>
               <td style="padding:0px">
                 <br>
-                <p style="text-align:right;font-size:small;">
+                <p style="text-align:center;font-size:small;">
                   This page was built based on <a href="https://jonbarron.info/">This Template</a>
                 </p>
               </td>
