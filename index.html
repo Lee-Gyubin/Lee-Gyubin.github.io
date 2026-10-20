@@ -41,7 +41,7 @@
                 </p>
               </td>
               <td style="padding:2.5%;width:25%;max-width:37%">
-                <a href="images/GyubinLee.JPG"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/GyubinLee.JPG" class="hoverZoomLink"></a>
+                <a href="images/GyubinLee.JPG"><img style="width:80%;max-width:80%;object-fit: cover; border-radius: 50%; display:block; margin:0 auto;" alt="profile photo" src="images/GyubinLee.JPG" class="hoverZoomLink"></a>
               </td>
             </tr>
           </tbody></table>
@@ -65,7 +65,36 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    
+
+    <tr onmouseout="pnf_stop()" onmouseover="pnf_start()">
+      <td style="padding:16px;width:25%;vertical-align:middle; position:relative;">
+        <div style="position: relative; overflow: visible;">
+          <img src='images/babytheorist.png'
+              style="width:100%; max-height:100px; object-fit:cover; border-radius:8px;
+                      transition: all 0.4s ease; position: relative; z-index: 1; transform-origin: left center;"
+              data-onmouseover="this.style.transform='scale(3.5)'; this.style.zIndex='1000'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.3)';"
+              data-onmouseout="this.style.transform='scale(1)'; this.style.zIndex='1'; this.style.boxShadow='none';">
+        </div>
+      </td>
+      <td style="padding:8px;width:75%;vertical-align:middle">
+
+    <span class="papertitle">BabyTheorist: A Benchmark for Learning to Theorize the World from Observation Alone</span> <br>
+    <a href="https://doojinbaek.github.io/">Doojin Baek*</a>,
+    <a href="https://dion-jy.github.io/">Junyeob Baek*</a>,
+    <a href="https://jojo0217.github.io/">Mingyu Jo</a>,
+    <a href="https://confeitohs.notion.site">Hosung Lee</a>,
+    <a href="https://scholar.google.com/citations?user=3C2Dv7kAAAAJ&hl=ko">Taegu Kang</a>,
+    <strong>Gyubin Lee</strong>,
+    <a href="https://mlml.kaist.ac.kr/sungjinahn">Sungjin Ahn</a>
+    <br>
+    <em>NeurIPS</em>, 2026
+    <br>
+    <p>
+    BabyTheorist introduces a benchmark for evaluating whether models can build internal theories of the world from observation alone, moving beyond prediction toward explanation-driven understanding.
+    </p>
+    </td>
+    </tr>
+
     <tr onmouseout="pnf_stop()" onmouseover="pnf_start()">
       <td style="padding:16px;width:25%;vertical-align:middle; position:relative;">
         <div style="position: relative; overflow: visible;">
@@ -79,7 +108,7 @@
       <td style="padding:8px;width:75%;vertical-align:middle">
 
     <span class="papertitle">Learning to Theorize the World from Observation</span> <br>
-    Doojin Baek*,
+    <a href="https://doojinbaek.github.io/">Doojin Baek*</a>,
     <strong>Gyubin Lee*</strong>,
     <a href="https://dion-jy.github.io/">Junyeob Baek</a>,
     <a href="https://confeitohs.notion.site">Hosung Lee</a>,
